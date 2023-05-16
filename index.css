@@ -1,0 +1,42 @@
+@font-face{
+    src: url('Technology.ttf');
+    font-family:Technology;
+   }
+
+
+body {
+    margin: 0;
+    font-family: Technology;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    height: 40vh;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+#homeScore, #awayScore{
+    width: 25%;
+    padding: 20px;
+    margin-left: 50px;
+    background-color: black;
+    color: red;
+}
+button{
+    background: none;
+    color: aliceblue;
+    
+}
+
+#newGame{
+    width: 100%;
+}
+
+div{
+    margin: 0 auto;
+    width: 50%;
+}
